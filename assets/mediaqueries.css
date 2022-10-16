@@ -1,0 +1,120 @@
+@media (max-width: 992px) {
+  #hero {
+    max-width: 100%;
+    font-size: small;
+  }
+
+  .hero {
+    width: 100%;
+  }
+  .hero h1 {
+    width: 100%;
+    font-size: 40px;
+  }
+  .hero-info {
+    width: 80%;
+  }
+  .hero-info h2 {
+    font-size: 40px;
+  }
+  .hero-info p {
+    font-size: 10px;
+  }
+
+  .hero-img img {
+    display: none;
+  }
+
+  .recomendados-padre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 800;
+    opacity: 0.8;
+    letter-spacing: 3px;
+  }
+  .recomendados-padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .recomenados-cards {
+    height: 150px;
+    width: 600px;
+    gap: 10px;
+  }
+  .recomendados-info {
+    gap: 22px;
+  }
+  .recomendados-info h4 {
+    font-size: 27px;
+  }
+  .recomendados-info p {
+    font-size: 20px;
+  }
+  .recomendados-info span {
+    font-size: 27px;
+    letter-spacing: 6px;
+  }
+
+  img {
+    width: 90px;
+  }
+  .recomenados-img {
+    padding: 0px 20px;
+  }
+
+  .agregar span {
+    width: 100px;
+    height: 40px;
+  }
+
+  .populares-title {
+    justify-content: center;
+  }
+}
+
+/* Otro media */
+
+@media (max-width: 585px) {
+  header {
+    margin-top: unset;
+    height: 60px;
+  }
+
+  .hero-info p {
+    width: 100%;
+  }
+
+  .recomendados-cards {
+    height: 130px;
+    width: 250%;
+  }
+  .recomendados-info {
+    gap: 10px;
+  }
+  .recomendados-info h4 {
+    font-size: 22px;
+    letter-spacing: 4px;
+  }
+  .recomendados-info p {
+    font-size: 17px;
+    letter-spacing: 4px;
+  }
+  .recomendados-info span {
+    font-size: 23p;
+  }
+
+  .populares-item {
+    width: 70%;
+  }
+  .footer-links {
+    flex-direction: column;
+  }
+}
